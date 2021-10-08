@@ -1,0 +1,149 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	 
+
+	<title>私は投資家</title>
+	<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+	<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+	<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<script src="js/ion.rangeSlider.js"></script>
+	<script src="js/magnific-popup.js"></script>
+	<script src="js/owl.carousel.js"></script>
+	<script src="js/tilt.jquery.js"></script>
+	<script src="js/jquery.easypiechart.js"></script>
+	<script src="js/bigtext.js"></script>
+	<script src="js/main.js"></script>
+
+	<link rel="stylesheet" href="css/swipebox.css">
+	<!------ Eng Light Box ------>
+
+</head>
+<body>
+<!-- header -->
+<div class="header">
+	<div class="container">
+		<div class="logo">
+			<a href="index.html">預金</a>
+		</div>
+		<div class="head-nav">
+			<span class="menu"> </span>
+			<ul class="cl-effect-3">
+				<li><a href="index.html">メイン</a></li>
+				<li><a href="blog.html">記事</a></li>
+				<li class="active"><a href="contact.html">連絡先</a></li>
+				<li><a href="policy.html">個人情報保護方針</a></li>
+				<li><a href="terms.html">利用規約および条件</a></li>
+				<div class="clearfix"></div>
+			</ul>
+		</div>
+		<!-- script-for-nav -->
+		<script>
+			$( "span.menu" ).click(function() {
+				$( ".head-nav ul" ).slideToggle(300, function() {
+					// Animation complete.
+				});
+			});
+		</script>
+		<!-- script-for-nav -->
+		<div class="social">
+			<ul>
+				<li><a href="#"><i class="facebok"> </i></a></li>
+				<li><a href="#"><i class="twiter"> </i></a></li>
+				<li><a href="#"><i class="drible"> </i></a></li>
+				<li><a href="#"><i class="behan"> </i></a></li>
+				<li><a href="#"><i class="goog"> </i></a></li>
+				<li><a href="#"><i class="in"> </i></a></li>
+				<div class="clearfix"></div>
+			</ul>
+		</div>
+		<div class="clearfix"></div>
+	</div>
+</div>
+<!-- header -->
+	<div class="main">
+		<div class="container">
+			<div class="contact">
+					<div class="contact-head text-center">
+						<h2>連絡先</h2>
+					</div>		
+					<!----- contact-grids ----->		
+					<div class="contact-grids">
+
+						<!----- contact-form ------>
+						<div class="contact-form">
+							<form action="thanks.html" >
+								<div class="contact-form-row">
+									<div>
+										<span>名前</span>
+										<input type="text" class="text" >
+									</div>
+									<div>
+										<span>メール</span>
+										<input type="text" class="text"  >
+									</div>
+									<div>
+										<span>電話番号</span>
+										<input type="text" class="text"  >
+									</div>
+									<div class="clearfix"> </div>
+								</div>
+								<div class="clearfix"> </div>
+								<div class="contact-form-row2">
+									<span></span>
+									<textarea> </textarea>
+								</div>
+								<input type="checkbox" name="terms" value="check" required=""/>
+								<a href="policy.html" target="_blank">
+									私はユーザー契約の条件を読み、同意しました
+								</a>
+								<button type="submit" >"送信" </button >
+							</form>
+						</div>
+						<!----- contact-form ------>
+					</div>
+					<!----- contact-grids ----->
+			</div>	
+		</div>
+	</div>
+<!-- footer -->
+<div class="footer">
+	<div class="container">
+
+
+		<div class="clearfix"> </div>
+		<div class="bottom">
+			<p> Copyright &copy;<script>document.write(new Date().getFullYear());</script>
+				All rights reserved</p>
+		</div>
+	</div>
+</div>
+<!-- footer -->
+<div class='cookie-banner'>
+	<p>
+		サイトはcookieを使用しています。 それらはあなたを知り、あなたのユーザーについての情報を得ることをexperience.By サイトを閲覧し続けると、私は以下に従ってサイト所有者によるクッキーの使用に同意します <a target="_blank" href="https://en.wikipedia.org/wiki/HTTP_cookie">Cookieポリシー</a>
+	</p>
+	<button class='close-cookie'>&times;</button>
+</div>
+<script>
+	window.onload = function () {
+		$('.close-cookie').click(function () {
+			$('.cookie-banner').fadeOut();
+		})
+	}
+</script>
+<script>
+	let elems = document.querySelectorAll('.server-name');
+	elems.forEach((elem) => {
+		elem.innerHTML = window.location.hostname
+	})
+</script>
+</body>
+</html>
